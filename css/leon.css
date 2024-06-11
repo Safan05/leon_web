@@ -1,0 +1,13 @@
+/** start the global values **/
+*{
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; /** for defining glopal box sizing on firefox**/
+	box-sizing: border-box;
+}
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/** end the glopal values **/
