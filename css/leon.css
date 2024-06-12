@@ -10,4 +10,72 @@ body{
   font-weight: <weight>;
   font-style: normal;
 }
-/** end the glopal values **/
+.parent{
+}
+.container{
+padding-left: 12px;
+padding-right: 12px;
+margin-left: auto;
+margin-right:auto;
+}
+/** small screens **/
+@media (min-width: 768px){
+  .container{
+    width:750px;
+  }
+}
+/** medium screens **/
+@media (min-width: 970px){
+  .container{
+    width:970px;
+  }
+}
+/** large screens **/
+@media (min-width: 1200px){
+  .container{
+    width:1170px;
+  }
+}
+/** end of the glopal values **/
+ 
+/** Start Header**/
+.header{
+  padding:20px;
+} 
+/** the space here means the container which is inside header**/
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+  width: 80px;
+}
+.header .links{
+  position: relative;
+}
+.header .links .icon{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.header .links .icon:hover span:nth-child(2){
+  width:100%;
+}
+.header .links .icon span {
+  background-color: black;
+  margin-bottom: 5px;
+  height: 2px;
+}
+.header .links .icon span:first-child {
+  width:100%;
+}
+.header .links .icon span:nth-child(2) {
+  width:60%;
+  transition: 0.3s;
+}
+.header .links .icon span:last-child {
+  width:100%;
+}
+/** End Header **/
