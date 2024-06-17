@@ -375,7 +375,6 @@ height: 420px;
 /* Start Contact */
 .contact{
   background-color: var(--background-col);
-      overflow-x: hidden;
 }
 .contact .container .htext h3{
     color: #ebeced;
@@ -412,6 +411,7 @@ height: 420px;
 .contact .container .col .find{
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 60px;
   left: 10%;
   align-items: center;
@@ -455,7 +455,7 @@ height: 420px;
 .portfolio .container .htext h3{
       font-size: 60px
 }
-.portfolio .container .htext + p{
+.portfolio .container .htext  p{
     font-size: 18px;
   }
 .portfolio .container .project .prj{
@@ -464,7 +464,7 @@ height: 420px;
 .about .container .htext h3{
       font-size: 60px
 }
-.about .container .htext + p{
+.about .container .htext p{
     font-size: 18px;
   }
 .about .container .icon:before,
@@ -481,7 +481,7 @@ text-align: center;
 .contact .container .htext h3{
       font-size: 60px
 }
-.contact .container .htext + p{
+.contact .container .htext  p{
     font-size: 18px;
   }
   .contact .container .col h2{
