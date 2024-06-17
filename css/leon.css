@@ -375,6 +375,7 @@ height: 420px;
 /* Start Contact */
 .contact{
   background-color: var(--background-col);
+      overflow-x: hidden;
 }
 .contact .container .htext h3{
     color: #ebeced;
@@ -415,6 +416,7 @@ height: 420px;
   margin-top: 60px;
   left: 10%;
   align-items: center;
+  max-width: 100%;
 }
 .contact .container .col .find i{
   font-size: 30px;
