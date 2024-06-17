@@ -10,13 +10,6 @@
 	-moz-box-sizing: border-box; /** for defining glopal box sizing on firefox**/
 	box-sizing: border-box;
 }
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 body{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
