@@ -148,10 +148,12 @@ text-align: center;
   color: var(--main-col);
   font-weight: bold;
   margin: 0px;
+  text-shadow: 4px 4px 2px black;
 }
 .landing .container p{
       color: mintcream;
     font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 4px 4px 2px black;
 } 
 /* End Landing  */
 /* Start Features */
@@ -257,7 +259,7 @@ line-height: 1.6;
   padding: 60px 0px;
 }
 .portfolio .container .htext h3{
-  color: #ebeced;
+  color: #c1c5c8;
   font-weight: 800;
   text-align: center;
   padding: 10px;
@@ -378,7 +380,7 @@ height: 420px;
   background-color: var(--background-col);
 }
 .contact .container .htext h3{
-    color: #ebeced;
+    color: #c1c5c8;
   font-weight: 800;
   text-align: center;
   padding: 10px;
